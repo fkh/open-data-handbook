@@ -1,0 +1,69 @@
+h1 { font-size: 1.75em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.25em; }
+h4 { font-size: 1em; }
+
+.top-bar, .contain-to-grid, .global-navigation li a {
+	background-color: #002d56 !important;
+}
+
+.global-navigation li a.current {
+	background-color: #184064 !important;
+}
+
+.global-navigation li a {
+	font-weight: normal !important;
+}
+
+.site-banner {
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.site-banner h1 {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: .2em;
+	margin: 15px 0 0 0;
+	color: #333;
+}
+
+.site-banner .tagline {
+	font-size: 1em;
+	color: #999;
+	text-align: center;
+	margin: .4em 0 0 0;
+}
+
+.comment-button {
+	float: right;
+	margin: 0 2em 0 0;
+}
+
+.continue-issues {
+	float: right;
+}
+
+.next-page, .previous-page {
+	margin: 3em 0 3em 2em;
+}
+
+footer {
+	background: #aaa;
+}
+
+
+footer ul {
+	list-style: none;
+	margin-top: 1.25em;
+}
+
+footer ul a {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+footer ul a:hover {
+	color: #FFF;
+}

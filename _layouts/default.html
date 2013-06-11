@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if IE 8]>               <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Open New York</title>
+  
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/app.css?1149" />
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>
+
+<div class="contain-to-grid sticky">
+<nav class="top-bar" >
+      <ul class="title-area">
+        <!-- Title Area -->
+        <li class="name">
+          <h1><a href="/open-data-handbook">Open New York</a></h1>
+        </li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="https://github.com/nys-its/open-data-handbook"><span></span></a></li>
+      </ul>
+
+      
+    <section class="top-bar-section" style="left: 0%;">
+        <!-- Right Nav Section -->
+        <ul class="right global-navigation">
+          <li><a class="home-page" href="index.html">Introduction</a></li>
+          <li class=""><a href="governance.html">Governance</a></li>
+          <li class=""><a href="publishable.html">Publishable</a></li>
+          <li class=""><a href="prepublication.html">Pre-Publication</a></li>
+          <li class=""><a href="dataprep.html">Data Prep</a></li>
+          <li class=""><a href="termsofuse.html">Terms</a></li> 
+          <li class=""><a href="ExecutiveOrder95.html">Executive Order</a></li> 
+<!--           <li class=""><a href="layout-test.html">Test</a></li>    -->                  
+        </ul>
+      </section>
+  </nav>
+</div> <!-- end sticky -->
+
+    </div>
+
+    <div class="row site-banner">
+        <a href="#" data-reveal-id="myModal" class="button tiny success secondary comment-button">Comment</a>
+        <div class="large-3 large-centered small-6 small-centered columns">
+          <img src="img/nys-sdpLogo.png" alt="open new york">
+        </div>  
+        <div class="large-12 small-12 columns">
+          <h1>PROVISIONAL OPEN DATA HANDBOOK</h1>
+          <div class="tagline">New York State Open Data Initiative</div>
+        </div>            
+    </div> <!-- end banner row -->
+   
+    <div class="row">
+        <div class="large-12 columns">
+
+            {{content}}
+            
+            <div class="large-12 columns">
+            {% if page.next %}
+              <a href="{{ page.next }}" class="next-page right button success">Next</a>
+            {% endif %}
+            {% if page.previous %}
+              <a href="{{ page.previous }}" class="previous-page right button secondary">Previous</a>
+            {% endif %}
+            </div>
+            
+        </div>
+    </div>
+
+  <footer role="footer">
+    <div class="row">
+      <div class="large-4 small-12">
+        <ul>
+          <li><a href="https://data.ny.gov/" target="_blank">Open.ny.gov</a></li>
+          <li><a href="https://github.com/nys-its/open-data-handbook/issues" target="_blank">On GitHub</a></li>
+        </ul>
+      </div>
+      <div class="large-4 small-12">
+      </div>
+      <div class="large-4 small-12">
+      </div>
+    </div>
+  </footer>
+
+  <div id="myModal" class="reveal-modal">
+    <h2>Your comments are important</h2>
+    <p class="lead">Please create a GitHub issue or comment on an existing issue to give feedback.</p>
+    <a href="https://github.com/nys-its/open-data-handbook/issues" target="_blank" class="continue-issues button success">continue</a>
+    <a class="close-reveal-modal">&#215;</a>
+  </div>  
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.interchange.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+ 
+ -->
+  <script src="js/foundation/foundation.reveal.js"></script>
+  <script src="js/foundation/foundation.topbar.js"></script>
+  <script src="js/app.js?1155"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39880511-2', 'nys-its.github.io');
+  ga('send', 'pageview');
+
+</script>
+  
+ 
+  
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
